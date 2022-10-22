@@ -4,13 +4,20 @@ h1 {
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+    background: blanchedalmond;
+}
 a.nav-links {
     display: flex;
     float: left;
     border: 3px dashed #030;
     margin-left: 40px;
+    padding: 10px;
     flex-wrap: wrap;
-    flex-grow: unset;
+}
+a.nav-links:hover {
+    border: 4px solid #050;
+    background: cornflowerblue;
 }
 a.inline-link {
     font-weight: bold;
