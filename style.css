@@ -6,6 +6,8 @@ h2 {
 }
 a.nav-links {
     float: left;
+    border: 5px dashed #a68;
+    margin-left: 10px;
 }
 a.inline-link {
     font-weight: bold;
