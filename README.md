@@ -6,3 +6,5 @@ Build out an interactive toolkit that will be expanded as I progress further in 
 Share everything!  
 
 Use the platforms that are already built for sharing.
+# OneNote Folder
+I will try to share my notes from the Flatiron course as I take them. Feel free to download (will need OneDrive)
