@@ -4,3 +4,9 @@ h1 {
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a.nav-links {
+    float: left;
+}
+a.inline-link {
+    font-weight: bold;
+}
