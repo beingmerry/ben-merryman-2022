@@ -8,12 +8,9 @@ body {
     background: blanchedalmond;
 }
 a.nav-links {
-    display: flex;
-    float: left;
     border: 3px dashed #030;
     margin-left: 20px;
     padding: 5px;
-    flex-wrap: wrap;
     background: #ddd;
 }
 a.nav-links:hover {
@@ -21,15 +18,20 @@ a.nav-links:hover {
     background: cornflowerblue;
 }
 a.inline-link {
-    font-weight: bold;
+    font-size:  20px;;
+}
+img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 div.top-menu {
-    height: 30px;
-    flex-wrap: wrap;
-    position: absolute;
-    height: 100%;
+    height: 40px;
     width: 100%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 ul.green {
     font-size: large;
