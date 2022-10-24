@@ -1,11 +1,14 @@
 h1 {
     font-family:'Courier New', Courier, monospace;
+    border: 3px dashed hotpink;
 }
 h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px dashed salmon;
 }
 body {
     background: blanchedalmond;
+    border: 3px dashed darkolivegreen;
 }
 a.nav-links {
     border: 3px dashed #030;
@@ -13,15 +16,22 @@ a.nav-links {
     padding: 5px;
     background: #ddd;
 }
-a.nav-links:hover {
+a:hover {
     border: 3px solid #050;
     background: cornflowerblue;
 }
 a.inline-link {
-    font-size:  20px;;
+    font-size:  20px;
+    border: 3px dashed burlywood;
+}
+a.social-link{
+    border: 3px dashed greenyellow;
+    color: darkblue;
 }
 img {
-    width: 50%;
+    min-width: 400px;
+    width: 30%;
+    border: 3px dashed orange;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -29,6 +39,7 @@ img {
 div.top-menu {
     height: 40px;
     width: 100%;
+    border: 3px dashed darkcyan;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,3 +48,8 @@ ul.green {
     font-size: large;
     border: 1px solid #1a1;
 }
+ul.list-inline {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+  }
