@@ -1,0 +1,21 @@
+h1 {
+    font-family:'Courier New', Courier, monospace;
+    border: 3px dashed hotpink;
+}
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px dashed salmon;
+}
+body {
+    background: rgb(201, 233, 145);
+    border: 3px dashed black;
+    display: block;
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+a:hover {
+    border: 3px solid #050;
+    background: cornflowerblue;
+}
