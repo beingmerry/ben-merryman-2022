@@ -31,16 +31,24 @@ void setup() {
   pinMode(LED_BUILTIN, OUTPUT);       // Init digital pin LED_BUILTIN as OUTPUT
   // digitalWrite(LED_BUILTIN, HIGH);    // turn ON - voltage HIGH
   digitalWrite(LED_BUILTIN, LOW);     // turn OFF - voltage LOW
+  digitalWrite(LED_BUILTIN, HIGH);     // turn ON - voltage HIGH
+  delay(800);                          // wait 200 ms
+  digitalWrite(LED_BUILTIN, LOW);      // turn OFF - voltage LOW
+  delay(200);                          // wait 200 ms
+  digitalWrite(LED_BUILTIN, HIGH);     // turn ON - voltage HIGH
+  delay(200);                          // wait 200 ms
+  digitalWrite(LED_BUILTIN, LOW);      // turn OFF - voltage LOW
+  delay(200);                          // wait 200 ms
 }
 
 // the loop function runs over and over again forever
 void loop() {
-  // digitalWrite(LED_BUILTIN, HIGH);     // turn ON - voltage HIGH
-  // delay(200);                          // wait 200 ms
-  // digitalWrite(LED_BUILTIN, LOW);      // turn OFF - voltage LOW
-  // delay(200);                          // wait 200 ms
-  // digitalWrite(LED_BUILTIN, HIGH);     // turn ON - voltage HIGH
-  // delay(200);                          // wait 200 ms
-  // digitalWrite(LED_BUILTIN, LOW);      // turn OFF - voltage LOW
-  // delay(800);                          // wait 800 ms
+  digitalWrite(LED_BUILTIN, HIGH);     // turn ON - voltage HIGH
+  delay(200);                          // wait 200 ms
+  digitalWrite(LED_BUILTIN, LOW);      // turn OFF - voltage LOW
+  delay(200);                          // wait 200 ms
+  digitalWrite(LED_BUILTIN, HIGH);     // turn ON - voltage HIGH
+  delay(200);                          // wait 200 ms
+  digitalWrite(LED_BUILTIN, LOW);      // turn OFF - voltage LOW
+  delay(800);                          // wait 800 ms
 }
