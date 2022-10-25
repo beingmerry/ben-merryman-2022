@@ -9,10 +9,14 @@ h2 {
 body {
     background: blanchedalmond;
     border: 3px dashed darkolivegreen;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 a.nav-links {
     border: 3px dashed #030;
-    margin-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5px;
     background: #ddd;
 }
@@ -38,7 +42,7 @@ img {
 }
 div.top-menu {
     height: 40px;
-    width: 100%;
+    width: auto;
     border: 3px dashed darkcyan;
     display: flex;
     align-items: center;
