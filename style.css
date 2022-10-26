@@ -1,16 +1,46 @@
+body {
+    background: blanchedalmond;
+    border: 3px dashed darkolivegreen;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
+    min-width: 500px;
+}
+div.top-menu {
+    height: 40px;
+    width: auto;
+    border: 3px dashed darkcyan;
+    border-radius: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.social-list{
+    display: block;
+    border: 3px dashed rgb(219, 170, 105);
+}
 h1 {
     font-family:'Courier New', Courier, monospace;
     border: 3px dashed hotpink;
 }
 h2 {
     border: 3px dashed salmon;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 }
-body {
-    background: blanchedalmond;
-    border: 3px dashed darkolivegreen;
-    display: block;
-    margin-left: 20%;
-    margin-right: 20%;
+h3{
+    border: 3px dashed salmon;
+}
+h4{
+    border: 3px dashed salmon;
+}
+h5{
+    border: 3px dashed salmon;
+}
+h6{
+    border: 3px dashed salmon;
+}
+p{
+    border: 1px dotted black;
 }
 a.nav-links {
     border: 3px dashed #030;
@@ -39,14 +69,6 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
-div.top-menu {
-    height: 40px;
-    width: auto;
-    border: 3px dashed darkcyan;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 ul.green {
     font-size: large;
     border: 1px solid #1a1;
@@ -55,4 +77,7 @@ ul.list-inline {
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
-  }
+}
+li.list-item{
+    display: inline;
+}
