@@ -2,76 +2,44 @@ body {
     background: blanchedalmond;
     border: 3px dashed darkolivegreen;
     display: block;
-    margin-left: 10%;
-    margin-right: 10%;
-    min-width: 500px;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 400px;
 }
-div.top-menu {
-    height: 40px;
-    width: auto;
-    border: 3px dashed darkcyan;
-    border-radius: 5%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.topnav {
+    overflow: hidden;
+    background-color: #333;
 }
-div.social-list{
-    display: block;
-    border: 3px dashed rgb(219, 170, 105);
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
-h1 {
-    font-family:'Courier New', Courier, monospace;
-    border: 3px dashed hotpink;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
 }
-h2 {
-    border: 3px dashed salmon;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-}
-h3{
-    border: 3px dashed salmon;
-}
-h4{
-    border: 3px dashed salmon;
-}
-h5{
-    border: 3px dashed salmon;
-}
-h6{
-    border: 3px dashed salmon;
-}
-p{
-    border: 1px dotted black;
-}
-a.nav-links {
-    border: 3px dashed #030;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    background: #ddd;
-}
-a:hover {
-    border: 3px solid #050;
-    background: cornflowerblue;
-}
-a.inline-link {
-    font-size:  20px;
-    border: 3px dashed burlywood;
-}
-a.social-link{
-    border: 3px dashed greenyellow;
-    color: darkblue;
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+.social-list {
+    float: right;
+    background-color: #04AA6D;
+    color: white;
+  }
+div.image-bar{
+    border: 3px dashed blueviolet;
 }
 img {
-    min-width: 400px;
-    width: 30%;
-    border: 3px dashed orange;
+    min-width: 500px;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-ul.green {
-    font-size: large;
-    border: 1px solid #1a1;
 }
 ul.list-inline {
     list-style-type: none; /* Remove bullets */
