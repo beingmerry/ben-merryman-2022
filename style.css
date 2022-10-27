@@ -1,10 +1,21 @@
 body {
-    background: blanchedalmond;
-    border: 3px dashed darkolivegreen;
+    background-color: rgb(204, 215, 221);
+    border: 3px dashed black;
     display: block;
-    margin-left: 5%;
-    margin-right: 5%;
-    min-width: 400px;
+}
+ 
+  /* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+body {
+    background-color: rgb(180, 215, 221);
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+body {
+    background-color: rgb(160, 215, 221);
+}
 }
 .topnav {
     overflow: hidden;
@@ -25,12 +36,12 @@ body {
 .topnav a.active {
     background-color: #04AA6D;
     color: white;
-  }
+}
 .social-list {
     float: right;
     background-color: #04AA6D;
     color: white;
-  }
+}
 div.image-bar{
     border: 3px dashed blueviolet;
 }
