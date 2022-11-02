@@ -7,13 +7,14 @@ h2 {
     border: 3px dashed salmon;
 }
 body {
-    background: rgb(201, 233, 145); 
+    background: #353; 
     border: 3px dashed black;
     display: block;
     margin-top: 5px;
     margin-left: 5%;
     margin-right: 5%;
     margin-bottom: 5px;
+    color: #000;
 }
 a:hover {
     border: 3px solid #050;

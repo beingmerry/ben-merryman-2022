@@ -1,31 +1,52 @@
-body {
+/* body {
     background-color: rgb(204, 215, 221);
-    border: 3px dashed black;
     display: block;
 }
  
-  /* On screens that are 992px or less */
+On screens that are 992px or less
 @media screen and (max-width: 992px) {
 body {
     background-color: rgb(180, 215, 221);
 }
 }
-
-/* On screens that are 600px or less */
+On screens that are 600px or less 
 @media screen and (max-width: 600px) {
 body {
     background-color: rgb(160, 215, 221);
+} */
+body {
+    background-color: #7a8ea5;
+    color: #222;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+h1 {
+    margin: auto;
+    text-align: center;
+}
+h2.top-line-description {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+}
+h2:not(.top-line-description) {
+    margin: auto;
+    text-align: left;
+    border-bottom: black solid 2px;
+}
+h3 {
+    margin: auto;
+    border: black dashed 1px;
 }
 .main-site{
-    margin-top: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border:  5px dashed rgb(140, 215, 221);
+    margin: auto;
+}
+p {
+    text-align: left;
 }
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #000;
 }
 .topnav a {
     float: left;
@@ -47,9 +68,6 @@ body {
     float: right;
     background-color: #04AA6D;
     color: white;
-}
-div.image-bar{
-    border: 3px dashed blueviolet;
 }
 img {   
     min-width: 400px;
