@@ -1,4 +1,4 @@
-# ben-merryman | Ben Merryman's Tools, Tips, Ideas, and Projects
+# ben-merryman | Ben Merryman's Personal Repo
 Please see my GitHub for other projects I may be working on at https://github.com/beingmerry/
 
 I use this repo and site (https://beingmerry.github.io/ben-merryman/) for testing designs, building tools, and as my personal portfolio.  
