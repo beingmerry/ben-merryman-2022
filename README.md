@@ -41,5 +41,5 @@ These notes can be downloaded locally and viewed with OneNote, or you can view t
  1. 🔮 | PreWork Notes: https://1drv.ms/u/s!ApQnruBM2i6Kgd1j577uj-m3k6p0TA?e=dtFB3k
 
 My weekly class notes will be linked here:
- 1. 1️⃣ | Week 1 Notes:
- 2. 2️⃣ | Week 2 Notes:
+ 1. 1️⃣ | Phase 1 Notes: https://1drv.ms/u/s!ApQnruBM2i6Kgd1j577uj-m3k6p0TA?e=ryq6Ob
+ 2. 2️⃣ | Phase 2 Notes: 
